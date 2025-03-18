@@ -70,7 +70,7 @@ function handleCheckout(event) {
 
     alert(`Thank you, ${name}! Your order has been placed successfully.`);
     localStorage.removeItem('cart');
-    window.location.href = '../puma-clothing-store/index.html';
+    window.location.href = 'https://moundjiboucenna.github.io/puma-clothing-store/index.html'
 }
 
 function toggleCreditCardForm() {
