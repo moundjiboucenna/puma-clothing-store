@@ -70,7 +70,7 @@ function handleCheckout(event) {
 
     alert(`Thank you, ${name}! Your order has been placed successfully.`);
     localStorage.removeItem('cart');
-    window.location.href = '../home.html';
+    window.location.href = '../index.html';
 }
 
 function toggleCreditCardForm() {
