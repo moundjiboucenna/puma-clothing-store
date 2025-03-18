@@ -105,7 +105,6 @@ function addToCart() {
   window.location.href = 'cart.html';
 }
 
-
 function updateCartCount() {
   const cart = JSON.parse(localStorage.getItem('cart')) || [];
   const cartCount = cart.reduce((total, product) => total + product.quantity, 0);
