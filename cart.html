@@ -17,9 +17,6 @@
   <!-- Fav Icon -->
   <link rel="shortcut icon" href="images/android-chrome-192x192.png" type="image/x-icon">
 
-  <link rel="stylesheet" href="css/style.css">
-
-
   <style>
     body {
       padding-bottom: 114px;
@@ -63,6 +60,12 @@
       font-size: 1.5rem;
       text-align: right;
     }
+
+    @media (max-width: 576px) {
+      input {
+        width: 120px;
+      }
+    }
   </style>
 
 </head>
@@ -81,7 +84,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="home.html">Home</a>
+            <a class="nav-link" href="index.html">Home</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="product.html">Product Details</a>
@@ -97,14 +100,12 @@
     </div>
   </nav>
 
-
-
+  <!-- Cart -->
   <div class="container cart-container">
     <h1>Shopping Cart</h1>
     <div id="cart-items"></div>
     <h3>Total: $<span id="total-price">0.00</span></h3>
   </div>
-
 
   <!-- Footer -->
   <footer class="pt-3 text-center bg-dark text-light position-fixed bottom-0 w-100">
@@ -113,15 +114,14 @@
         Copyright &copy; 2025 All rights reserved | made by
         <b><a class="copy" href="https://github.com/moundjiboucenna">Mohamed Elmoundji Boucenna</a></b>
       </p>
-      <a href="#" class="p-3 mb-3">
+      <a href="#" class="p-3 mb-2">
         <i class="bi bi-arrow-up-circle h2"></i>
       </a>
     </div>
   </footer>
 
   <script src="js/bootstrap.bundle.min.js"></script>
-  <script src="js/cart.js
-  "></script>
+  <script src="js/cart.js"></script>
 </body>
 
 </html>
