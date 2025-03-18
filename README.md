@@ -1,0 +1,4 @@
+#### PUMA Clothing Store
+### An e-commerce store project dedicated to PUMA products, offering a wide range of clothing, shoes, and accessories. The website features an attractive and user-friendly interface, allowing users to add items to the shopping cart and update it dynamically using JavaScript and LocalStorage. This project was assigned by our teacher as part of the Web Application Development course in the second year of Computer Science at Constantine 2 University - Abdelhamid Mehri. The goal is to practice front-end development concepts and improve the user experience.
+## Discover the ultimate PUMA shopping experience! 🚀 Explore our stylish collection of clothing, shoes, and accessories, and enjoy a smooth shopping journey with our sleek and user-friendly interface. Try it now and unleash your fashion game! 😎🔥
+[DEMO](https://moundjiboucenna.github.io/puma-clothing-store/)
